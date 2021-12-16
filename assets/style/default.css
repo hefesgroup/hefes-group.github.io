@@ -36,17 +36,16 @@ p {
 }
 
 .logo {
-    width: 500px;
-    height: 192.5px;
-    background-image: url("../images/logo_horizontal.png");
+    width: 400px;
+    height: 100px;
+    background-image: url("../images/logo_black.png");
     background-size: cover;
+    margin: 0 auto;
 }
 
 @media (max-width: 550px) {
     .logo {
         width: 200px;
-        height: 200px;
-        background-image: url("../images/logo_vertical.png");
-        margin: 0 auto;
+        height: 50px;
     }
 }
